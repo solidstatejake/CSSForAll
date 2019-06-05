@@ -1,0 +1,90 @@
+:root {
+  --gray-blue-color: rgb(32, 71, 74);
+  --lighter-brown-color: rgb(62, 59, 59);
+  --darker-brown-color: rgb(43, 43, 43);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 880px;
+  min-height: 100vh;
+  background: #FFF;
+  font-family: 'Comfortaa', cursive;
+  padding-bottom: 60px;
+}
+
+#gradient h1 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  color: #FFF;
+  background: var(--gray-blue-color);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  padding-top: 3px;
+  z-index: 100;
+}
+
+#title {
+  font-size: 4em;
+}
+
+#navigation { 
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 50px; width: 100%;
+  background: var(--gray-blue-color);
+}
+
+.links {
+  width: 100px; height: 40px;
+  line-height: 40px;
+  box-shadow: 1px 1px 1px black;
+  color: #FFF;
+  background: var(--lighter-brown-color);
+}
+
+:link, :visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.links:hover {
+  box-shadow: 2px 2px 1px #000;
+  background: var(--darker-brown-color);
+  cursor: pointer;
+}
+
+#gradient{
+width: 100%; height: 300px;
+background-image: linear-gradient(to bottom,  var(--gray-blue-color), white);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; height: 60px;
+  text-align: center;
+  background: var(--darker-brown-color);
+}
+
+footer p {
+  margin: 20px;
+  color: #FFF;
+}

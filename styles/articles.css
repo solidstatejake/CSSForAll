@@ -1,0 +1,63 @@
+:root {
+  --light-blue-color: rgb(31, 134, 142);
+  --gray-blue-color: rgb(32, 71, 74);
+  --light-brown-color: rgb(62, 59, 59);
+  --darker-brown-color: rgb(43, 43, 43);
+}
+
+.article-list {
+  margin: 20px;
+}
+
+.article-list h1 {
+  color: var(--gray-blue-color);
+}
+
+#flexbox-article, #transition-article, #UX-article {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 700px;
+  border: 1px solid #000;
+}
+
+#flexbox-article h1, #transition-article h1, #UX-article h1 {
+  margin: 20px;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+#flexbox-article li, #transition-article li, #UX-article li {
+  margin-left: 70px;
+}
+
+.article-description {
+  float: right;
+  width: 300px; 
+  margin: 20px;
+  line-height: 18px;
+}
+
+#transition-article .article-description {
+  float: right;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  margin: 20px;
+}
+
+.article-link {
+  color: var(--light-blue-color);
+}
+
+.article-link:hover {
+  text-decoration: underline var(--light-blue-color);
+}
+#UX-article {
+  margin-bottom: 100px;
+}
+

@@ -1,0 +1,53 @@
+:root {
+  --light-blue-color: rgb(31, 134, 142);
+  --gray-blue-color: rgb(32, 71, 74);
+  --lighter-brown-color: rgb(62, 59, 59);
+  --darker-brown-color: rgb(43, 43, 43);
+}
+
+
+
+#gradient p {
+  text-align: center;
+  line-height: 20px;
+  padding: 30px;
+}
+
+/* The introductions to "people" who created the website */
+#who-we-are-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px; height: 876px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Jake's introduction */
+#jacob-berg, #alan-blue, #ivan-alvisovich {
+  width: 800px; height: auto;
+  border: 1px solid black;
+  
+}
+
+#jacob-berg h1, #alan-blue h1, #ivan-alvisovich h1 {
+  margin: 20px;
+  font-size: 1.5em;
+  color: var(--light-blue-color);
+}
+
+#jacob-berg p, #alan-blue p, #ivan-alvisovich p {
+  margin: 20px;
+  line-height: 20px;
+}
+
+#jacob-berg img, #alan-blue img, #ivan-alvisovich img {
+  width: 200px; height: 250px;
+  float:right;
+  margin: 20px;
+}
+
+

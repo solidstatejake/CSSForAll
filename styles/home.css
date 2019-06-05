@@ -1,0 +1,60 @@
+:root {
+  --light-blue-color: rgb(31, 134, 142);
+  --gray-blue-color: rgb(32, 71, 74);
+  --lighter-brown-color: rgb(62, 59, 59);
+  --darker-brown-color: rgb(43, 43, 43);
+}
+
+
+#main-container {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 20px;
+}
+
+/* The #introduction (left half) of home page */
+#introduction {
+  width: 40%;
+  margin: 0 50px;
+}
+
+#introduction h2 {
+  color: rgb(24, 176, 218);
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+#introduction p {
+  margin-bottom: 20px;
+}
+
+
+
+/* The news (right half) of home page */
+
+#news {
+  margin-left: 100px;
+}
+#news h2{
+  color: rgb(24, 176, 218);
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  margin: 20px 0 0 50px;
+}
+
+/* Rules that apply to both "Where Am I?" and "News" */
+
+#introduction a, #news a {
+  color: var(--light-blue-color);
+}
+
+#introduction a:hover, #news a:hover {
+  text-decoration: underline var(--light-blue-color);
+}
